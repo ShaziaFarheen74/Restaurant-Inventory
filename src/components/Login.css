@@ -1,0 +1,84 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('G:/RESTAURANT INVENTORY MANAGEMENT/frontend/restaurant-management/src/assets/restaurant.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(226, 117, 16);
+  font-size: 40px;
+  width: 100%; 
+}
+
+.login-form {
+  background-color: transparent;
+  padding: 40px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px; 
+  }
+
+  .login-container h2 {
+    font-size: 30px; 
+    margin-bottom: 20px;
+  }
+
+  .login-form {
+    padding: 20px;
+    width: 90%; 
+  }
+}
+
+
+.login-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.login-form .ant-input,
+.login-form .ant-input-password {
+  border-radius: 4px;
+}
+
+.login-form .login-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.login-form .login-button:hover {
+  background-color: #40a9ff;
+}
+
+.login-form .ant-form-item-label {
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-label .ant-form-item-label {
+  color: #ff6347; 
+}
+
+.login-form .ant-input::placeholder,
+.login-form .ant-input-password::placeholder {
+  color: #bfbfbf; 
+}
